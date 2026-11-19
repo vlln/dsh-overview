@@ -1,0 +1,4 @@
+# dsh-overview bundle：挂载 Node half（空 apply，行为全在 client）
+- insert:
+    - id: dsh-overview
+      name: '@vlln/dsh-overview'
