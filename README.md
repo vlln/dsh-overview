@@ -20,7 +20,7 @@
 
 ## 演示
 
-> 演示视频已整理至 [`docs/assets/overview-demo.mp4`](docs/assets/overview-demo.mp4)；待绑定 GitHub 仓库后可通过 `gh issue comment --attach` 上传并将 `https://github.com/user-attachments/assets/<uuid>` 替换到此处。
+https://github.com/user-attachments/assets/14a5dd23-b33f-439a-8257-19be1b330c0a
 
 <br>
 
