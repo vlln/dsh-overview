@@ -1,5 +1,5 @@
 {
-  "name": "@vlln/dsh-overview",
+  "name": "dsh-overview",
   "description": "DSH 通用会话总览容器插件——为其他插件提供 overview.action / overview.section / overview.trigger.badge 扩展点",
   "version": "0.1.0",
   "type": "module",

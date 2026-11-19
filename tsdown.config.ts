@@ -28,7 +28,7 @@ export default [
     noExternal: ['@deepseek-ai/schemastery'],
   },
   {
-    name: '@vlln/dsh-overview/client',
+    name: 'dsh-overview/client',
     entry: { client: 'src/client/index.tsx' },
     outDir: 'lib',
     format: 'cjs',
@@ -38,7 +38,7 @@ export default [
     external: [/@deepseek-ai\/dsh-client-/, /^react($|\/)/, /^react-dom($|\/)/],
     outputOptions: {
       entryFileNames: 'client.js',
-      banner: 'window.__ModuleLoader__.load({ id: "@vlln/dsh-overview", factory: (require) => {',
+      banner: 'window.__ModuleLoader__.load({ id: "dsh-overview", factory: (require) => {',
       footer: 'return module.exports; } });',
       intro: 'var module = { exports: {} }; var exports = module.exports;',
     },
