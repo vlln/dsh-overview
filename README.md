@@ -1,4 +1,4 @@
-<h1 align="center">@vlln/dsh-overview</h1>
+<h1 align="center">dsh-overview</h1>
 
 <p align="center"><b>DSH 通用会话总览容器插件——集中收口待办、子智能体、后台任务、输入材料与关键产出，并向其他插件开放扩展插槽。</b></p>
 
