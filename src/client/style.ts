@@ -45,7 +45,7 @@ export const overviewStyle = `
   background:linear-gradient(to bottom,color-mix(in srgb,var(--ov-surface) 82%,transparent),transparent);
 }
 .dsh-ov-body{flex:1 1 auto;min-height:0;overflow-y:auto;padding:4px 0 8px}
-.dsh-ov-title{font-size:12px;font-weight:500;color:var(--ov-text-3)}
+.dsh-ov-title{font-size:13px;font-weight:600;color:var(--ov-text)}
 .dsh-ov-pin-btn{
   display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;
   border:0;border-radius:6px;background:transparent;color:var(--ov-text-3);cursor:pointer;

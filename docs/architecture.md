@@ -25,5 +25,5 @@
 - **增量变化（`+x` / `-x`）**：通过 `hasOpenedOnceRef` 区分“首次打开总览”与“后续再次打开”；首次打开直接以当前数量作为基线，防止页面刷新后误报 `+n`。
 - **跨刷新持久化缓存**：`dsh-overview:v1:present:<sessionId>` 与 `dsh-overview:v1:inputs:<sessionId>` 存入 `localStorage`，解决 DSH 历史分页懒加载导致刷新后早期文件不可见的问题；同时扫描 `[data-tool="present"]` 补全超过 4 个被折叠的交付物并按相对/绝对路径去重。
 - **Pin 固定与空间自适应**：`dsh-overview:v1:pinned:<sessionId>` 按会话持久化；有足够左侧留白时停靠对话区左上角（避开右侧 `TurnNavigator`），空间不足时自动隐藏且保持 `open = false`，空间恢复后自动重现。
-- **插件开关配置**：通过 `plugins.bundle.config`（`key: '@vlln/dsh-overview'`）渲染开关卡，同时读写 `localStorage`（`dsh-overview:v1:prefs`）与 `configForms`。
+- **插件开关配置**：通过 `plugins.bundle.config`（`key: 'dsh-overview'`）渲染开关卡，同时读写 `localStorage`（`dsh-overview:v1:prefs`）与 `configForms`。
 - **右侧栏路由**：`sidebarRightTabs.register` 必须同时提供 `id`（用于 `sidebar.right.pane.tab` 槽位 `key`）和 `kind`（用于 `sidebarRight.openTab(kind)`）。

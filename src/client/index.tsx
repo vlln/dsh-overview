@@ -511,7 +511,7 @@ function apply(ctx: any) {
     slots.register(
       {
         name: 'plugins.bundle.config',
-        key: '@vlln/dsh-overview',
+        key: 'dsh-overview',
         locale: NS,
       },
       OverviewSettingsCard,
@@ -1398,7 +1398,7 @@ function apply(ctx: any) {
       {
         name: 'conversation.session.header.utilities',
         id: 'dsh-overview.trigger',
-        order: 10,
+        order: 9999,
         locale: NS,
         children: {
           'overview.action': { kind: 'list', scope: 'session' },
