@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0-blue" alt="version 0.1.0">
+  <a href="https://www.npmjs.com/package/@vlln/dsh-overview"><img src="https://img.shields.io/npm/v/%40vlln%2Fdsh-overview" alt="npm version"></a>
   <img src="https://img.shields.io/badge/dsh-%3E%3D0.1.0--rc.5-informational" alt="dsh >=0.1.0-rc.5">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License"></a>
 </p>
@@ -46,7 +46,11 @@ https://github.com/user-attachments/assets/14a5dd23-b33f-439a-8257-19be1b330c0a
 **前置条件**：Node.js `>=22.19.0`，已安装 `dsh`（`>=0.1.0-rc.5`）。
 
 ```bash
+# 通过 DSH 插件管理安装（推荐）
 dsh plugin --profile web add @vlln/dsh-overview
+
+# 或作为 npm 依赖安装（供其他插件引入类型/工具）
+npm install @vlln/dsh-overview
 ```
 
 本地源码安装验证：
